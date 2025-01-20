@@ -30,23 +30,24 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+          light: "#F2F0E5", /** This is for the main background */
+          lightgray: "#e5e5e5", /** This changes search bar*/
+          gray: "#878580", /** This changes date color*/
+          darkgray: "#4e4e4e", /** This changes text color*/
+          dark: "#2b2b2b", /** This changes site headers color*/
+          secondary: "#205EA6", /** This changes links*/
+          tertiary: "#B7B5AC",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
+          boldText: "#ff5733",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
+          light: "#12253B", /** This is for the main background */
+          lightgray: "#163B66", /** This changes search bar*/
+          gray: "#646464", /** This changes date color*/
+          darkgray: "#d4d4d4", /** This changes text color*/
+          dark: "#ebebec", /** This changes site headers color*/
+          secondary: "#4385BE", /** This changes links*/
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
