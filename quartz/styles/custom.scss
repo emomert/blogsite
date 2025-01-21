@@ -1,3 +1,41 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* Default styling for light mode */
+body {
+    color-scheme: light dark;
+}
+
+/* Bold text in light mode */
+strong {
+    color: darkred; /* Replace with your desired color */
+}
+
+/* Italic text in light mode */
+em {
+    color: darkblue; /* Replace with your desired color */
+}
+
+/* Bold and italic text in light mode */
+strong em, em strong {
+    color: darkpurple; /* Replace with your desired color */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    /* Bold text in dark mode */
+    strong {
+        color: lightcoral; /* Replace with your desired color */
+    }
+
+    /* Italic text in dark mode */
+    em {
+        color: lightblue; /* Replace with your desired color */
+    }
+
+    /* Bold and italic text in dark mode */
+    strong em, em strong {
+        color: lightpink; /* Replace with your desired color */
+    }
+}
