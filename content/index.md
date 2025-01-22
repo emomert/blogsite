@@ -9,8 +9,11 @@ I will use this site mainly publish my writings and etc… My main reason to ope
 I just started to use here so there is not much stuff in here. I’m trying to release new stuff. feel free to check in some time later! Thank you for visiting 🙏
 
 ---
-# Main Sections
-# Latest Blog Post
+## Main Sections
+- [📑Blogs Page](obsidian://open?vault=content&file=Utilities%2FBlogs%20Page) → This page contains all of the blogs I posted.
+- [📸Photo Gallery](obsidian://open?vault=content&file=Other%20Stuff%2FPhoto%20Gallery%2FMy%20Photo%20Gallery) → This page contains the photos I took and share.
+
+## Latest Blog Post
 - In this section, I will publish my blogs
 
 > [!info] [🗒️**My Obsidian Workflow**](My%20Obsidian%20Workflow.md)

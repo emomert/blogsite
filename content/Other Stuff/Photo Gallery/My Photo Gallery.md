@@ -3,7 +3,7 @@ title: My Photo Gallery
 tags:
   - other-things
 ---
-![[camera.gif]]
+![[camera.gif|1000]]
 > [!info] What is this page for?
 > While I started to taking photos with my camera in 2019, I wasn’t really into photography. But recently I bought a [new camera](https://fujifilm-x.com/en-us/products/cameras/x100vi/) and I’m taking too many photos. Here you can find some of them! Please feel free to use them however you like. If the quality is not that great, feel free to reach me via mail or some other way!
 

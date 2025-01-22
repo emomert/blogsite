@@ -2,40 +2,96 @@
 
 // put your custom CSS here!
 
-/* Default styling for light mode */
 body {
     color-scheme: light dark;
 }
 
 /* Bold text in light mode */
 strong {
-    color: darkred; /* Replace with your desired color */
+    color: #AF3029; /* Red-600 for bold text */
 }
 
 /* Italic text in light mode */
 em {
-    color: darkblue; /* Replace with your desired color */
+    color: #205EA6; /* Blue-600 for italic text */
 }
 
 /* Bold and italic text in light mode */
 strong em, em strong {
-    color: darkpurple; /* Replace with your desired color */
+    color: #5E409D; /* Purple-600 for bold and italic text */
 }
 
 /* Dark mode styles */
 @media (prefers-color-scheme: dark) {
     /* Bold text in dark mode */
     strong {
-        color: lightcoral; /* Replace with your desired color */
+        color: #FF6B6B; /* Light coral for bold text */
     }
 
     /* Italic text in dark mode */
     em {
-        color: lightblue; /* Replace with your desired color */
+        color: #5db5eb; /* Light blue for italic text */
     }
 
     /* Bold and italic text in dark mode */
     strong em, em strong {
-        color: lightpink; /* Replace with your desired color */
+        color: #C78BFA; /* Soft purple for bold and italic text */
+    }
+}
+
+/* Default styling for light mode */
+body {
+    color-scheme: light dark;
+}
+
+/* Heading colors in light mode */
+h1 {
+    color: #205EA6; /* Blue-600 for level 1 heading (#) */
+}
+
+h2 {
+    color: #AF3029; /* Red-600 for level 2 heading (##) */
+}
+
+h3 {
+    color: #AD8301; /* Yellow-600 for level 3 heading (###) */
+}
+
+h4 {
+    color: #66800B; /* Green-600 for level 4 heading (####) */
+}
+
+h5 {
+    color: #24837B; /* Cyan-600 for level 5 heading (#####) */
+}
+
+h6 {
+    color: #5E409D; /* Purple-600 for level 6 heading (######) */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    h1 {
+        color:rgb(63, 182, 255); /* Light blue for level 1 heading (#) */
+    }
+
+    h2 {
+        color: #FF6B6B; /* Coral red for level 2 heading (##) */
+    }
+
+    h3 {
+        color: #b8a042; /* Warm yellow for level 3 heading (###) */
+    }
+
+    h4 {
+        color: #A3E635; /* Bright green for level 4 heading (####) */
+    }
+
+    h5 {
+        color: #5CE4CF; /* Vibrant cyan for level 5 heading (#####) */
+    }
+
+    h6 {
+        color: #D8B4FE; /* Soft purple for level 6 heading (######) */
     }
 }
